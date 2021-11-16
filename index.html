@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe page | Página de recetas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Styles | Estilos -->
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+    <!-- JavaScript -->
+    <script src="alive.js" type="text/javascript" charset="utf-8" defer></script>
+    <!-- Material icons | Íconos de Material -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- Fonts | Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <article>
+            <div class="heading">
+                <h1 class="heading__h1">Receta clásica de tarta de queso</h1>
+                <p class="heading__p"><img src="6dots.svg" alt="6 point SVG symbol | Símbolo SVG de 6 puntos" /> ¡No busque más una receta clásica de tarta de queso cremosa y ultra suave! Junto con una corteza mantecosa de galletas Graham, nadie puede negar su simple decadencia. Para obtener los mejores resultados, hornee en un baño de agua.</p>
+            </div>
+            <img class="image" src="photo1.png" alt="A slice of cheesecake on top on a black plate with blurred background | Una rebanada de tarta de queso encima en un plato negro con fondo difuminado" />
+            <div id="container-text">
+                <div class="timing">
+                <div class="timing__item">
+                    <i class="material-icons timing__icon timing__icon--orange">
+                        local_dining
+                    </i>
+                    <span class="timing__title">Rendimiento</span>
+                    <span class="timing__desc timing__desc--orange">12 porciones</span>
+                </div>
+                
+                <div class="timing__item">
+                    <i class="material-icons timing__icon">
+                        query_builder
+                    </i>
+                    <span class="timing__title">Tiempo de preparación</span>
+                    <span class="timing__desc">45 minutos</span>
+                </div>
+                
+                <div class="timing__item">
+                    <i class="material-icons timing__icon">
+                        query_builder
+                    </i>
+                    <span class="timing__title">Tiempo de cocción</span>
+                    <span class="timing__desc">1 hora</span>
+                </div>
+                
+                <div class="timing__item">
+                    <i class="material-icons timing__icon">
+                        query_builder
+                    </i>
+                    <span class="timing__title">Tiempo total</span>
+                    <span class="timing__desc">7,75 horas</span>
+                </div>
+            </div>
+            <section class="ingredients">
+                <h2 class="ingredients__title">Ingredientes</h2>
+                <!-- Crust ingredients | Ingredientes de la cobertura -->
+                <h3 class="ingredients__subtitle ingredients__subtitle--graham">Corteza de galletas Graham</h3>
+                <p class="ingredients__p">
+                    <span class="container__checkbox">
+                        <input id="checkbox-1" type="checkbox" name="ingredient-check" />
+                        <label class="ingredients__label" for="checkbox-1"></label>
+                    </span> 
+                <span>1 taza y 1/2 (150 g) de <strong>migas de galletas Graham</strong> (unas 10 galletas Graham de hoja entera)</span></p>
+                <p class="ingredients__p">
+                    <span class="container__checkbox">
+                        <input id="checkbox-2" type="checkbox" name="ingredient-check" />
+                        <label class="ingredients__label" for="checkbox-2"></label>
+                    </span> 
+                    <span>5 cucharadas (70 g) de <strong>mantequilla sin sal</strong>, derretida</span></p>
+                <p class="ingredients__p">
+                    <span class="container__checkbox">
+                        <input id="checkbox-3" type="checkbox" name="ingredient-check" />
+                        <label class="ingredients__label" for="checkbox-3"></label>
+                    </span> 
+                    <span>1/4 de taza (50 g) de <strong>azúcar granulada</strong></span></p>
+                
+                <!-- Cheesecake ingredients | Ingredientes de la tarta de queso -->
+                <h3 class="ingredients__subtitle ingredients__subtitle--cake">Tarta de queso</h3>
+                <p class="ingredients__p">
+                    <span class="container__checkbox">
+                        <input id="checkbox-4" type="checkbox" name="ingredient-check" />
+                        <label class="ingredients__label" for="checkbox-4"></label>
+                    </span> 
+                    <span>Cuatro bloques de 8 onzas (904 g) de <strong>queso crema</strong> con toda la grasa, ablandado a temperatura ambiente</span></p>
+                <p class="ingredients__p">
+                    <span class="container__checkbox">
+                        <input id="checkbox-5" type="checkbox" name="ingredient-check" />
+                        <label class="ingredients__label" for="checkbox-5"></label>
+                    </span> 
+                    <span>1 taza (200 g) de <strong class="ingredients__bold">azúcar granulada</strong></span></p>
+                <p class="ingredients__p">
+                    <span class="container__checkbox">
+                        <input id="checkbox-6" type="checkbox" name="ingredient-check" />
+                        <label class="ingredients__label" for="checkbox-6"></label>
+                    </span> 
+                    <span>1 taza (240 g) de <strong class="ingredients__bold">crema agria</strong> entera, a temperatura ambiente</span></p>
+                <p class="ingredients__p">
+                    <span class="container__checkbox">
+                        <input id="checkbox-7" type="checkbox" name="ingredient-check" />
+                        <label class="ingredients__label" for="checkbox-7"></label>
+                    </span> 
+                    <span>1 cucharadita de <strong class="ingredients__bold">extracto puro de vainilla</strong></span></p>
+                <p class="ingredients__p">
+                    <span class="container__checkbox">
+                        <input id="checkbox-8" type="checkbox" name="ingredient-check" />
+                        <label class="ingredients__label" for="checkbox-8"></label>
+                    </span>
+                    <span>2 cucharaditas de <strong class="ingredients__bold">jugo de limón fresco</strong> (opcional, pero recomendado)</span></p>
+                <p class="ingredients__p">
+                    <span class="container__checkbox">
+                        <input id="checkbox-9" type="checkbox" name="ingredient-check" />
+                        <label class="ingredients__label" for="checkbox-9"></label>
+                    </span> 
+                    <span>3 <strong class="ingredients__bold">huevos</strong> grandes, a temperatura ambiente</span></p>
+                <p class="ingredients__p">
+                    <span class="container__checkbox">
+                        <input id="checkbox-10" type="checkbox" name="ingredient-check" />
+                        <label class="ingredients__label" for="checkbox-10"></label>
+                    </span> 
+                    <span>Sugerencias de cobertura: <span id="italic-span">Caramelo salado, cuajada de limón, cobertura de fresa, ganache de chocolate, ganache de chocolate con vino tinto, fruta fresca, crema batida o salsa de frambuesa</span> (receta en notas)</span></p>
+            </section>
+            <section class="instructions">
+                <h2 class="instructions__title">Instrucciones</h2>
+                <div class="instructions__step">
+                    <div class="instructions__number">1</div><p class="instructions__p">Ajuste la rejilla del horno a la posición media-baja y precaliente el horno a 177°C (350°F).</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">2</div><p class="instructions__p"><span class="bold-span">Haga la corteza:</span> Con un procesador de alimentos, procese las galletas Graham hasta obtener migas. Vierta en un tazón mediano y agregue el azúcar y la mantequilla derretida hasta que se combinen. (También puede mezclarlo todo junto en el procesador de alimentos). La mezcla quedará arenosa. Presione firmemente en el fondo y ligeramente hacia arriba por los lados de un molde desmontable de 9 o 10 pulgadas. No es necesario engrasar el molde primero. Yo uso el fondo de una taza medidora para que la corteza quede bien compacta. Hornee previamente durante 8 minutos. Retirar del horno y colocar el molde caliente sobre un trozo grande de papel de aluminio. El papel de aluminio se envolverá alrededor del molde para el baño de agua en el paso 4. Deje que la corteza se enfríe un poco mientras prepara el relleno.</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">3</div><p class="instructions__p"><span class="bold-span">Haga el relleno:</span> Con una batidora de mano o de pie equipada con un accesorio de paleta, bata el queso crema y el azúcar granulada a velocidad media-alta en un tazón grande hasta que la mezcla esté suave y cremosa, aproximadamente 2 minutos. Agregue la crema agria, el extracto de vainilla y el jugo de limón y luego bata hasta que esté completamente combinado. A velocidad media, agregue los huevos de uno en uno, batiendo después de cada adición hasta que se mezclen. Cuando el último huevo se incorpore a la masa, deje de mezclar. Para ayudar a evitar que la tarta de queso se desinfle y se agriete a medida que se enfría, evite mezclar demasiado la masa.</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">4</div><p class="instructions__p"><span class="bold-span">Prepare el baño de agua simple (ver nota)</span> Hierva una olla de agua. Necesitas 1 pulgada de agua en tu olla para el baño de agua, así que asegúrate de hervir suficiente. Yo uso una tetera entera de agua caliente. Mientras el agua se calienta, envuelva el papel de aluminio alrededor del molde desmontable. Vierta la masa de la tarta de queso sobre la corteza. Usa una espátula de goma o una cuchara para alisarlo en una capa uniforme. Coloque el molde dentro de una asadera grande. Vierta con cuidado el agua caliente dentro del molde y métalo en el horno. (O puede colocar primero la bandeja para asar en el horno y luego verter el agua caliente. Lo que sea más fácil para usted).</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">5</div><p class="instructions__p">Hornee la tarta de queso durante 55-70 minutos o hasta que el centro esté casi cuajado. Cuando esté listo, el centro de la tarta de queso se tambaleará levemente si agita suavemente el molde. Apague el horno y abra ligeramente la puerta del mismo. Deje reposar la tarta de queso en el horno en el baño de agua mientras se enfría durante 1 hora. Retire del horno y del baño de agua, luego deje enfriar la tarta de queso completamente a temperatura ambiente. A continuación, refrigere la tarta de queso durante al menos 4 horas o toda la noche.</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">6</div><p class="instructions__p">Use un cuchillo para aflojar la tarta de queso fría del borde del molde desmontable, luego retire el borde. Con un cuchillo limpio y afilado, córtelo en rodajas para servir. Para obtener rebanadas limpias, limpie el cuchillo y sumérjalo en agua tibia entre cada rebanada.</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">7</div><p class="instructions__p">Sirva la tarta de queso con la cobertura deseada. Cubra y guarde la tarta de queso sobrante en el refrigerador hasta por 5 días.</p>
+                </div>
+            </section>
+            </div>
+            <p class="source">Fuente: <a class="source__link" href="https://sallysbakingaddiction.com/classic-cheesecake/" target="blank">https://sallysbakingaddiction.com/classic-cheesecake/</a></p>
+        </article>
+    </main>
+    <footer class="footer">
+        <p class="footer__p">Creado por <a class="footer__link" target="blank">Javier Valeriano</a></p>
+    </footer>
+</body>
+</html>
