@@ -46,8 +46,8 @@ Hola a todos, espero que estén bien. Esta es mi [solución](https://devchalleng
 
 Here you can see my [demo](https://javiervaleriano.github.io/devchallenge-recipe-page/). | Aquí pueden ver mi [demo](https://javiervaleriano.github.io/devchallenge-recipe-page/).
 
-This time I take advantage of the project to implement a CSS transition for the navbar links, something that I had not done before. I modify the bottom border of each of them with the :before pseudoclass. I also give a random link to the footer link. |
-En esta ocasión aprovecho el proyecto para implementar una transición CSS para los enlaces del navbar, algo que no había hecho antes. Modifico el borde inferior de cada uno de ellos con la pseudoclase :before. También otorgo un enlace aleatorio al link del footer.
+In this project I use custom checkboxes and to the footer link I give a random URL change every 5 seconds. Also, it allowed me to further strengthen my CSS Grid knowledge. |
+En este proyecto utilizo checkboxes personalizados y al enlace del footer le proporciono un cambio de URL de forma aleatoria cada 5 segundos. Además, me permitió reforzar más mis conocimientos de CSS Grid.
 
 
 ### Built With | Construido con
@@ -62,21 +62,26 @@ En esta ocasión aprovecho el proyecto para implementar una transición CSS para
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories | Esta aplicación/sitio se creó como una entrega a un desafío de [Devchallenges](https://devchallenges.io/challenges). El [desafío](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) fue crear una aplicación para completar las historias de usuario dadas:
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories | Esta aplicación/sitio se creó como una entrega a un desafío de [Devchallenges](https://devchallenges.io/challenges). El [desafío](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) fue crear una aplicación para completar las historias de usuario dadas:
 
-- User story: I can see a page following the given design. | Historia de usuario: Puedo ver una página siguiendo el diseño dado.
-- User story: On mobile, I can see a collapsed navigation | Historia de usuario: En móvil, puedo ver una navegación contraída
-- User story: On mobile, when I select the hamburger menu, I can see a navigation | Historia de usuario: En móvil, cuando selecciono el menú de hamburguesa, puedo ver una navegación
+- User story: I can see a recipe with ingredients and instructions. | Puedo ver una receta con ingredientes e instrucciones.
+- User story: I can select a checkbox if I have the ingredients. | Puedo seleccionar una casilla de verificación si tengo los ingredientes.
+- User story: I can see the number of servings and baking times. | Puedo ver la cantidad de porciones y los tiempos de horneado.
 
 
 ## Acknowledgements | Agradecimientos
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+- [HTML <strong> Tag](https://www.w3schools.com/tags/tag_strong.asp): To understand the use of the "strong" tag and the difference from the "b" tag. | Para entender el uso de la etiqueta "strong" y la diferencia respecto a la etiqueta "b".
 
-- [Trucos CSS (12) - Bordes animados](https://www.youtube.com/watch?v=JZ74DJdhTfI); To add the bottom border transition to links | Para agregar la transición del borde inferior a los enlaces.
+- [HTML5 Element Flowchart](https://blogs.ua.es/pi/files/2012/09/h5d-sectioning-flowchart.png): Flow chart to know when to use one label over another. | Diagrama de flujo para saber cuándo usar una etiqueta sobre otra.
 
-- [Posicionar footer SIEMPRE pegado al pie de pagina
-](https://es.stackoverflow.com/questions/10757/posicionar-footer-siempre-pegado-al-pie-de-pagina/10758); In order to keep the footer always at the bottom of the page. However, in this project I use it in certain cases | Para lograr mantener el footer siempre al fondo de la página. Sin embargo, en este proyecto lo uso en determinados casos.
+- [Cómo crear checkboxes personalizados espectaculares con tan solo CSS](https://www.jasoft.org/Blog/post/como-crear-checkboxes-personalizados-espectaculares-con-tan-solo-css): Article that provides a tutorial on how to create custom checkboxes with just CSS. | Artículo que proporciona un tutorial de cómo crear checkboxes personalizados con solo CSS.
+
+- [Selectores CSS avanzados](https://lenguajecss.com/css/selectores/selectores-avanzados/): Article that helps to know the CSS selectors and their characteristics. | Artículo que ayuda a conocer los selectores de CSS y sus características.
+
+- [animation](https://developer.mozilla.org/es/docs/Web/CSS/animation): Mozilla Developer article that talks about the animation property of CSS. It helped me remember to use this shorthand. | Artículo de Mozilla Developer que habla sobre la propiedad de animación de CSS. Me ayudó a recordar a usar este atajo.
+
 
 ## Contact | Contacto
 
