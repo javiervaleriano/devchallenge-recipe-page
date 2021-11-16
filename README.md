@@ -35,12 +35,12 @@
 ## Overview | Visión general
 
 ### Desktop | Escritorio
-![Desktop view | Vista de escritorio](./ss_desktops.png)
+![Desktop view | Vista de escritorio](./Desktop_ss(1).png)
+![Desktop view | Vista de escritorio](./Desktop_ss(2).png)
 
 ### Mobile | Móvil
-<img src="./ss_mobile.png" alt="mobile view | vista móvil" width="300" height="auto" />
-<img src="./ss_mobile-navbar.png" alt="navbar mobile view | vista móvil de la barra de navegación" width="300" height="auto" />
-
+<img src="./Mobile_ss.png" alt="Mobile view | Vista móvil" width="300" height="auto" />
+<!-- ME QUEDÉ POR AQUÍ (BORRAS EL TEXTO DE ESTA LÍNEA Y DEJAS ESTA VACÍA DE POR MEDIO) -->
 Hello everyone, I hope you are well. This is my [solution](https://devchallenges.io/solutions/{}) to [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) from Devchallenges.io. |
 Hola a todos, espero que estén bien. Esta es mi [solución](https://devchallenges.io/solutions/{}) al [desafío](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) de Devchallenges.io
 
