@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/{}">
+    <a href="https://devchallenges.io/solutions/U50EToEk3Dmi24l6Q1Fd">
       Solution / Solución
     </a>
     <span> | </span>
@@ -41,8 +41,8 @@
 ### Mobile | Móvil
 <img src="./Mobile_ss.png" alt="mobile view | vista móvil" width="300" height="auto" />
 
-Hello everyone, I hope you are well. This is my [solution](https://devchallenges.io/solutions/{}) to [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) from Devchallenges.io. |
-Hola a todos, espero que estén bien. Esta es mi [solución](https://devchallenges.io/solutions/{}) al [desafío](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) de Devchallenges.io
+Hello everyone, I hope you are well. This is my [solution](https://devchallenges.io/solutions/U50EToEk3Dmi24l6Q1Fd) to [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) from Devchallenges.io. |
+Hola a todos, espero que estén bien. Esta es mi [solución](https://devchallenges.io/solutions/U50EToEk3Dmi24l6Q1Fd) al [desafío](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) de Devchallenges.io
 
 Here you can see my [demo](https://javiervaleriano.github.io/devchallenge-recipe-page/). | Aquí pueden ver mi [demo](https://javiervaleriano.github.io/devchallenge-recipe-page/).
 
