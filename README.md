@@ -46,8 +46,8 @@ Hola a todos, espero que estén bien. Esta es mi [solución](https://devchalleng
 
 Here you can see my [demo](https://javiervaleriano.github.io/devchallenge-recipe-page/). | Aquí pueden ver mi [demo](https://javiervaleriano.github.io/devchallenge-recipe-page/).
 
-In this project I use custom checkboxes and give the footer link a random URL change every 5 seconds. Also, it allowed me to reinforce my CSS Grid knowledge. |
-En este proyecto utilizo checkboxes personalizados y le otorgo al enlace del footer un cambio de URL de forma aleatoria cada 5 segundos. Además, me permitió reforzar mis conocimientos de CSS Grid.
+In this project I use custom checkboxes and give the footer link a random URL change every 5 seconds. Also, it allowed me to reinforce my CSS Grid knowledge and added a load spinner while the page image finishes rendering. |
+En este proyecto utilizo checkboxes personalizados y le otorgo al enlace del footer un cambio de URL de forma aleatoria cada 5 segundos. Además, me permitió reforzar mis conocimientos de CSS Grid y agregué un spinner de carga mientras se termina de renderizar la imagen de la página.
 
 
 ### Built With | Construido con
